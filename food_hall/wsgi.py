@@ -1,5 +1,5 @@
 """
-WSGI config for eBook project.
+WSGI config for food_hall project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eBook.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'food_hall.settings')
 
 application = get_wsgi_application()
